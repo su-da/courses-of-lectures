@@ -6,7 +6,6 @@ if [ -d $1 ] ; then
     fi
     pandoc -s -t revealjs -p -H _layouts/header.html \
         --slide-level=2 --highlight-style=espresso \
-        -c /css/slide.css \
         -V history \
         -V revealjs-url=/reveal.js \
         $1/index.md -o public/$1/index.html
