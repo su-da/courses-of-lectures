@@ -357,10 +357,13 @@ have to account to the other owners for his or her profits. Rosen at
 
 > “The copyright in a compilation or derivative work extends only to the
 > material contributed by the author of such work, and does not imply
-> any exclusive right in the preexisting material. The copyright in such
-> work is independent of, and does not affect or enlarge the scope,
-> duration, ownership, or subsistence of, any copyright protection in
-> the existing material.
+> any exclusive right in the preexisting material.
+
+---
+
+> The copyright in such work is independent of, and does not affect or
+> enlarge the scope, duration, ownership, or subsistence of, any
+> copyright protection in the existing material.”
 
 ::: {.text-right .caption-text}
 ----
@@ -1032,9 +1035,13 @@ http:www.opensource.org/docs.definition.php.
    well publicized means of obtaining the source code for no more than a
    reasonable reproduction cost, preferably, downloading via the
    Internet without charge. The source code must be the preferred form
-   in which a programmer would modify the program. Deliberately
-   obfuscated source code is not allowed. Intermediate forms such as the
-   output of a preprocessor or translator are not allowed.”
+   in which a programmer would modify the program.
+
+---
+
+2. ...Deliberately obfuscated source code is not allowed. Intermediate
+   forms such as the output of a preprocessor or translator are not
+   allowed.”
 
 ::: notes
 Source:http:www.opensource.org/docs.definition.php.
@@ -1262,6 +1269,9 @@ source licenses.
 
 * Permissive FOSS license - a term used often to describe minimally
   restrictive FOSS licenses
+
+---
+
 * Example: BSD-3-Clause
   * The BSD license is an example of a permissive license that allows
     unlimited redistribution for any purpose as long as its copyright
@@ -1278,6 +1288,9 @@ source licenses.
   same terms as the original work
   * This is referred to as a "copyleft", "reciprocal", or "hereditary"
     effect
+
+---
+
 * Example of license reciprocity from the GPL-2.0:
   "You must cause any work that you distribute or publish, that in whole
   or in part contains or is derived from the Program or any part
@@ -2002,6 +2015,9 @@ strategies).
 * Ambiguous license terms
 * Consumer protection laws
 * License management
+
+---
+
 * Licenses have not been construed by an American Court 
 * Licenses may be revocable
 * Uncertain interpretation
@@ -2180,7 +2196,7 @@ Common scenarios include:
 
 ## Incorporation
 
-![](res/incorporation-use.png)
+![](res/incorporation-use.png){.img-right}
 
 A developer may copy portions of a FOSS component into your software
 product. 
@@ -2195,11 +2211,10 @@ Relevant terms include:
 
 ## Linking
 
-![](res/linking-use.png)
+![](res/linking-use.png){.img-right}
 
 A developer may link or join a FOSS component with your software
-product. 
-
+product.  
 Relevant terms include:
 
 * Static/Dynamic Linking
@@ -2211,7 +2226,7 @@ Relevant terms include:
 
 ## Modification
 
-![](res/modification-use.png)
+![](res/modification-use.png){.img-right}
 
 A developer may make changes to a FOSS component, including:
 
@@ -2221,7 +2236,7 @@ A developer may make changes to a FOSS component, including:
 
 ## Translation
 
-![](res/translation-use.png)
+![](res/translation-use.png){.img-right}
 
 A developer may transform the code from one state to another.
 
@@ -2234,7 +2249,7 @@ Examples include:
 
 ## Development Tools
 
-![](res/development-tools.png)
+![](res/development-tools.png){.img-right}
 
 Development tools may perform some of these operations behind the
 scenes.
@@ -2287,6 +2302,9 @@ http://www.catb.org/~esr/writings/magic-cauldron/
 * Sell services and support 
 * Dual versions
 * Dual licensing
+
+---
+
 * Value added software
 * Sell sponsorships
 * Sell ads and T-shirts
@@ -2297,8 +2315,12 @@ http://www.catb.org/~esr/writings/magic-cauldron/
 
 * “Describes any kind of creative work published in a format that
   explicitly allows copying and modifying of its information by anyone,
-  not exclusively by a closed organization, firm, or individual.” From
-  Wikipedia, the world’s largest open source project.
+  not exclusively by a closed organization, firm, or individual.”
+ 
+::: {.text-right .caption-text}
+----
+From Wikipedia, the world’s largest open source project.
+:::
 
 ::: notes
 Open content basically refers to intellectual property that is not
@@ -2392,27 +2414,31 @@ wiki.creativecommons.org/Before_Licensing
 content. All CC licenses require attribution.
 http://creativecommons.org/licenses/
 
-**CC BY**: Allows others to distribute, remix, tweak, and build on your
-work, even commercially.
+* **CC BY**: Allows others to distribute, remix, tweak, and build on
+  your work, even commercially.
 
-**CC BY-SA**: Allows others to distribute, remix, tweak, and build on
-your work, even commercially, and they must license their new creations
-under the same terms.
-
-**CC BY-ND**: Allows for redistribution, commercial or non-commercial
-use, but they can’t change the work.
+* **CC BY-SA**: Allows others to distribute, remix, tweak, and build on
+  your work, even commercially, and they must license their new
+  creations under the same terms.
 
 ## Creative Commons
 
-**CC BY-NC**: Allows others to distribute, remix, tweak, and build on
-your work, even non-commercially. Their new works must be
-non-commercial, but they can license them under different terms.
+* **CC BY-ND**: Allows for redistribution, commercial or non-commercial
+  use, but they can’t change the work.
 
-**CC BY-NC-SA**: Allows others to distribute, remix, tweak, and build on
-your work, non-commercially, and they must license their new creations
-under the same terms.
+* **CC BY-NC**: Allows others to distribute, remix, tweak, and build on
+  your work, even non-commercially. Their new works must be
+  non-commercial, but they can license them under different terms.
 
-**CC BY-NC-ND**: Others can only download and share your works.
+## Creative Commons
+
+* **CC BY-NC-SA**: Allows others to distribute, remix, tweak, and build
+  on your work, non-commercially, and they must license their new
+  creations under the same terms.
+
+* **CC BY-NC-ND**: Others can only download and share your works.
+
+## Creative Commons
 
 The **Creative Commons Zero (CC0)** is a public domain dedication which
 can be used if you wish to permanently surrender your copyright and
@@ -2422,12 +2448,15 @@ types of content.
 ## Other Open Content Organizations
 
 * Creative Commons International
-  http://creativecommons.org/international/ 
-* Science Commons (a Creative Commons Project) http://sceincecommons.org 
-* Open Educational Resources Commons (OER) http://www.oercommons.org/
-* Open Content (http://www.opencontent.org/
+  <http://creativecommons.org/international/>
+* Science Commons (a Creative Commons Project) <http://sceincecommons.org>
+* Open Educational Resources Commons (OER) <http://www.oercommons.org/>
+
+## Other Open Content Organizations
+
+* Open Content <http://www.opencontent.org/>
 * For more see the Google Directory,
-  http://www.google.com/Top/Computers/Open_Source/Open_Content/
+  <http://www.google.com/Top/Computers/Open_Source/Open_Content/>
   (providing a list of websites dedicated to open source)
 
 ## Other open content licenses include
@@ -2460,55 +2489,61 @@ http://creativecommons.org/FAQ
 
 ## Quick Overview
 
-* https://choosealicense.com/
-* https://en.wikipedia.org/wiki/Comparison_of_free_and_open-source_software_licenses
+* <https://choosealicense.com/>
+* <https://en.wikipedia.org/wiki/Comparison_of_free_and_open-source_software_licenses>
 
 ---
 
-* Lawrence Rosen, Open Source Licensing: Software Freedom and
-  Intellectual Property Law (Prentice Hall Professional and Technical
-  Reference 2004), available at http://www.rosenlaw.com/oslbook.htm. The
-  best book on open source licensing. Gives an in-depth but not overly
-  detailed overview of issues regarding open source licensing. Includes
-  the text of some o the more popular open source licenses and
+* Lawrence Rosen, **Open Source Licensing: Software Freedom and
+  Intellectual Property Law** (Prentice Hall Professional and Technical
+  Reference 2004), available at <http://www.rosenlaw.com/oslbook.htm>.
+  The best book on open source licensing. Gives an in-depth but not
+  overly detailed overview of issues regarding open source licensing.
+  Includes the text of some o the more popular open source licenses and
   point-by-point analysis of some of the most important licenses.
 
-* http://www.opensource.org - the online home of the Open Source
+---
+
+* <http://www.opensource.org> - the online home of the Open Source
   Initiative, the de facto standards body of the open source movement.
   Provides a list of and the text of all OSI approved licenses. Sets out
   the open source principles, answers frequently asked questions, and
   provides helpful links
 
+---
+
 * Dennis M. Kennedy, A Primer on Open Source Licensing Legal Issues:
   Copyright, Copyleft and Copyfuture, (2001), available at
-  http://www.denniskennedy.com/opensourcedmk.pdf. 
+  <http://www.denniskennedy.com/opensourcedmk.pdf>.
 
-* http://creativecommons.org - the open source idea in non software
+* <http://creativecommons.org> - the open source idea in non software
   contexts
 
 ## On the business issues
 
 * Eric S. Raymond, The Magic Cauldron, available at
-  http://www.catb.org/~esr/writings/magic-cauldron/magic-cauldron.html/,
-(discussing how to make money on open source)
+  <http://www.catb.org/~esr/writings/magic-cauldron/magic-cauldron.html>,
+  (discussing how to make money on open source)
+
+---
 
 * David A. Wheeler, “Why Open Source Software/Free Software (OSS/FS,
   FLOSS, of FOSS)? Look at the Numbers!,” available at
-  http://www.dwheeler.com/oss_fs_why.html#history (reviewing literature
-  on and discussing the benefits of open source versus proprietary
-  software)
+  <http://www.dwheeler.com/oss_fs_why.html#history> (reviewing
+  literature on and discussing the benefits of open source versus
+  proprietary software)
 
 ## Lists of open source projects
 
-* https://github.com/
-* http://freshmeat.net
-* http://sourceforge.net
+* <https://github.com/>
+* <http://freshmeat.net>
+* <http://sourceforge.net>
 
 ## On open source software generally
 
 * Eric S. Raymond, The Cathedral and the Bazaar: Musings on Linux and
   Open Source by an Accidental Revolutionary (O’Reilly Media 2001),
-  available at http://www.catb.org/~esr/writings/cathedral-bazaar/ 
+  available at <http://www.catb.org/~esr/writings/cathedral-bazaar/>
 
 ::: notes
 The book that inspired Netscape to release its Mozilla web browser as an
