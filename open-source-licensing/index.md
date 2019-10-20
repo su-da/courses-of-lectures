@@ -1144,21 +1144,21 @@ Source: http:www.opensource.org/docs.definition.php.
 The OSI gives the following rationales for the two antidiscrimination
 provisions:
 
-5. “In order to get the maximum benefit from the process the maximum
-   diversity of persons and groups should be equally eligible to
-   contribute to open source. Therefore we forbid any open-source
-   license from locking anybody out of the process.
+“5. In order to get the maximum benefit from the process the maximum
+diversity of persons and groups should be equally eligible to contribute
+to open source. Therefore we forbid any open-source license from locking
+anybody out of the process.”
 
-“Some countries, including the United States, have export restrictions
+Some countries, including the United States, have export restrictions
 for certain types of software. An OSD conformant license may warn
 licensees of applicable restrictions and remind them that they are
 obliged to obey the law; however, it may not incorporate such
 restrictions itself.
 
-6. “The major intention of this clause is to prohibit license traps that
-   prevent open source from being used commercially. We want commercial
-   users to join our community, not feel excluded from it.”
-   http:www.opensource.org/docs.definition.php.
+“6. The major intention of this clause is to prohibit license traps that
+prevent open source from being used commercially. We want commercial
+users to join our community, not feel excluded from it.”
+http://www.opensource.org/docs.definition.php.
 
 For a discussion of both antidiscrimination provisions, see O’Reilly at
 10 ((“The antidiscrimination provisions insure that code is available to
