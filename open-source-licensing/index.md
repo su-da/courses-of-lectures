@@ -84,6 +84,46 @@ some of which the part examines.
 The conclusion is very brief, and does not introduce any new material.
 :::
 
+# Selected Backgrounds
+
+## Intellectual Property
+
+Topic of recent US-China trade talks
+
+## IP Infringements
+
+![Huawei Open Source](res/huawei-infringement.jpeg)
+
+## Examples
+
+Digital Products.
+
+* E-Books
+* Music
+* Motion Pictures
+* Software
+* Fonts
+* Logos
+* You name it...
+
+# Fair Use?
+
+## Economic and Social Impacts
+
+* Positive
+* Negative
+* Short-term
+* Long-term
+
+::: notes
+
+Some aspects.
+
+* Wo bushi Yaoshen
+* Growth and Innovation
+* CAx: CAD/CAE/CAM
+:::
+
 # [Part I]{.highlight-goldenrod}<br>Basic Intellectual Property Law
 
 ::: notes
@@ -249,7 +289,6 @@ A copyright holder has the exclusive right:
 * To make copies of the work
 * To prepare derivative works
 * To distribute copies of the original work or derivative works
-* For certain types of works, to perform the work
 * For certain types of works, to perform the work
 
 ::: {.text-right .caption-text}
